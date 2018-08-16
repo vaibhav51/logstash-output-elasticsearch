@@ -97,7 +97,7 @@ class LogStash::Outputs::ElasticSearch < LogStash::Outputs::Base
   # Protocol agnostic methods
   include(LogStash::Outputs::ElasticSearch::Common)
 
-  config_name "elasticsearch"
+  config_name "esoutput"
 
   # The Elasticsearch action to perform. Valid actions are:
   #
